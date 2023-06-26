@@ -68,6 +68,17 @@ const usuario = {
 };
 
 objetoComoParametro(usuario);
-*/
+
 
 //Retorno de uma função
+function calcularMedia(a, b) {
+    const media = (a + b) / 2;
+    return media;
+}
+
+calcularMedia(7, 6);*/
+
+function areaRantangular(base, altura) {
+    return base * altura;
+}
+console.log(areaRantangular(8, 6));
